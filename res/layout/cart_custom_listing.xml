@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+     <LinearLayout 
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:orientation="horizontal"
+         >
+         
+    <ImageView
+        android:id="@+id/productImageCartProduct"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+         />
+
+    <TextView
+        android:id="@+id/productNameCartProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="productName" >
+    </TextView>
+     </LinearLayout>
+    
+    <RelativeLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <TextView
+            android:id="@+id/priceCartProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="price" />
+
+            <TextView
+            android:id="@+id/quantityCartProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:id="@+id/deleteButtonCartProduct"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/delete" />
+    </RelativeLayout>
+    
+    
+    
+    </LinearLayout>
